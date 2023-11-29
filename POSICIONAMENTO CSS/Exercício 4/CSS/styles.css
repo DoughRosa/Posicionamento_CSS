@@ -1,0 +1,111 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+.centralizado {
+    height: 100vh;
+    width: 100vw;
+}
+
+.primeira{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.segunda{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 102px;
+    left: 0px;
+}
+
+.terceira{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 204px;
+    left: 0px;
+}
+
+.quarta{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 102px;
+}
+
+.quinta{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 204px;
+}
+
+.sexta{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 102px;
+    left: 102px;
+}
+.setima{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 204px;
+    right: 0px;
+}
+.oitava{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 102px;
+    right: 0px;
+}
+.nona{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 102px;
+    right: 102px;
+}
+.decima{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 204px;
+}
+.decima_primeira{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 102px;
+}
+.decima_segunda{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

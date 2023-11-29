@@ -1,0 +1,65 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
+.centralizado {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+- Como ele colocou uma div dentro da outra, não precisou utilizar o Z-index;
+- também não precisou utilizar o flex-direction;
+- Ao colocar uma dentro da outra é possível fazer o seguinte:
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+- é possível criar mais de uma div ao mesmo tempo ao digitar: div*5."classe";
+- é possível criar uma classe comum a todos, para poder colocar o "position: absolute" e não precisar digitar em cada um.
+*/
+
+.primeira{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    /*
+    
+    */
+}
+
+.segunda{
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+}
+
+.terceira{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+}
+
+.quarta{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+.quinta{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
